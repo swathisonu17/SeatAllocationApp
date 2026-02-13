@@ -135,6 +135,9 @@ st.markdown("""
         line-height: 1.6; 
         opacity: 0.9;
     }
+            
+
+            
 </style>
 """, unsafe_allow_html=True)
 
@@ -181,5 +184,53 @@ st.markdown("""
 <div class="info-box-blue">
     <h1>Seat Allotment Automation System</h1>
     <p>Automatically allocates students into halls while mixing departments to prevent clashes and ensure a smooth exam process.</p>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+/* Make space at bottom so footer doesn't overlap */
+.main {
+    padding-bottom: 60px;
+}
+
+/* Footer container */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    z-index: 99999;
+}
+
+/* Scrolling text */
+.footer-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    animation: scroll-left 10s linear infinite;
+}
+
+/* Animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+</style>
+
+<div class="footer-container">
+    <div class="footer-text">
+        Designed and Developed by Swathi H   
+    </div>
 </div>
 """, unsafe_allow_html=True)
