@@ -5,6 +5,11 @@ import pandas as pd
 import os
 
 # -----------------------------
+# 1. PAGE CONFIG
+# -----------------------------
+st.set_page_config(page_title="View Output", layout="wide")
+
+# -----------------------------
 # 0. LOAD STUDENTS, ROOMS, AND PLAN FROM CSV
 # -----------------------------
 DATA_FOLDER = "data"
@@ -33,10 +38,7 @@ if "plan" not in st.session_state:
     else:
         st.session_state["plan"] = []
 
-# -----------------------------
-# 1. PAGE CONFIG
-# -----------------------------
-st.set_page_config(page_title="View Output", layout="wide")
+
 
 # -----------------------------
 # 2. MATCHING THEME CSS (UNCHANGED)
