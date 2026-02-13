@@ -214,7 +214,7 @@ st.markdown("""
     font-size: 16px;
     font-weight: 600;
     color: blue;
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 20s linear infinite;
 }
 
 /* Animation */
@@ -230,7 +230,7 @@ st.markdown("""
 
 <div class="footer-container">
     <div class="footer-text">
-        Designed and Developed by Swathi H   
+        Designed and Developed by © 2026 Swathi H. All Rights Reserved.
     </div>
 </div>
 """, unsafe_allow_html=True)
