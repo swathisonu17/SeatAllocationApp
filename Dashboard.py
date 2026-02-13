@@ -230,7 +230,6 @@ st.markdown("""
 
 <div class="footer-container">
     <div class="footer-text">
-        Designed and Developed by © 2026 Swathi H. All Rights Reserved.
-    </div>
+        Designed and Developed by Swathi H | All Rights Reserved © 2026 
 </div>
 """, unsafe_allow_html=True)
